@@ -1,13 +1,13 @@
 package nl.ramsolutions.sw.magik.parser;
 
 import com.sonar.sslr.api.AstNode;
-import com.sonar.sslr.api.GenericTokenType;
 import com.sonar.sslr.api.Token;
 import com.sonar.sslr.api.Trivia;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import nl.ramsolutions.sw.GenericTokenType;
 
 /**
  * Comment extractor for Magik sources. The MagikParser, or rather sslr, does not properly store

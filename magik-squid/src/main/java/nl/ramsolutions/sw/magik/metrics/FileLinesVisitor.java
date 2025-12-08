@@ -2,13 +2,13 @@ package nl.ramsolutions.sw.magik.metrics;
 
 import com.sonar.sslr.api.AstNode;
 import com.sonar.sslr.api.AstNodeType;
-import com.sonar.sslr.api.GenericTokenType;
 import com.sonar.sslr.api.Token;
 import com.sonar.sslr.api.TokenType;
 import com.sonar.sslr.api.Trivia;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import nl.ramsolutions.sw.GenericTokenType;
 import nl.ramsolutions.sw.magik.MagikVisitor;
 import nl.ramsolutions.sw.magik.api.MagikKeyword;
 import nl.ramsolutions.sw.magik.api.MagikPunctuator;

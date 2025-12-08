@@ -1,13 +1,13 @@
 package nl.ramsolutions.sw.loadlist.metrics;
 
 import com.sonar.sslr.api.AstNode;
-import com.sonar.sslr.api.GenericTokenType;
 import com.sonar.sslr.api.Token;
 import com.sonar.sslr.api.TokenType;
 import com.sonar.sslr.api.Trivia;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import nl.ramsolutions.sw.GenericTokenType;
 import nl.ramsolutions.sw.loadlist.LoadListVisitor;
 
 /**

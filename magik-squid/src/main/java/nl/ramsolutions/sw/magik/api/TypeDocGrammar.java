@@ -1,8 +1,8 @@
 package nl.ramsolutions.sw.magik.api;
 
-import com.sonar.sslr.api.GenericTokenType;
 import java.util.Arrays;
 import java.util.Locale;
+import nl.ramsolutions.sw.GenericTokenType;
 import org.sonar.sslr.grammar.GrammarRuleKey;
 import org.sonar.sslr.grammar.LexerlessGrammarBuilder;
 import org.sonar.sslr.parser.LexerlessGrammar;

@@ -1,6 +1,5 @@
 package nl.ramsolutions.sw.magik.languageserver.selectionrange;
 
-import com.sonar.sslr.api.GenericTokenType;
 import com.sonar.sslr.api.Token;
 import java.util.List;
 import nl.ramsolutions.sw.magik.MagikTypedFile;

@@ -9,7 +9,16 @@ updates:
     schedule:
       interval: monthly
   - package-ecosystem: "maven"
-    directory: "/"
+    directories:
+      - "/"
+      - "/magik-checks"
+      - "/magik-debug-adapter"
+      - "/magik-language-server"
+      - "/sonar-magik-plugin"
+      - "/magik-squid"
+      - "/magik-typed-checks"
+      - "/magik-typed-lint"
+      - "/sslr-magik-toolkit"
     schedule:
       interval: monthly
   - package-ecosystem: "npm"

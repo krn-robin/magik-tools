@@ -95,3 +95,5 @@ buildNumber.properties
 jacoco.exec
 */dependency-reduced-pom.xml
 .venv
+.DS_Store
+.projectile-cache.eld

@@ -1,7 +1,6 @@
 package nl.ramsolutions.sw.magik.languageserver.semantictokens;
 
 import com.sonar.sslr.api.AstNode;
-import com.sonar.sslr.api.GenericTokenType;
 import com.sonar.sslr.api.Token;
 import java.io.IOException;
 import java.net.URI;

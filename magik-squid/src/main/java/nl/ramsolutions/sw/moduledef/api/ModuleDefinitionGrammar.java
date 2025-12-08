@@ -1,6 +1,6 @@
 package nl.ramsolutions.sw.moduledef.api;
 
-import com.sonar.sslr.api.GenericTokenType;
+import nl.ramsolutions.sw.GenericTokenType;
 import org.sonar.sslr.grammar.GrammarRuleKey;
 import org.sonar.sslr.grammar.LexerlessGrammarBuilder;
 import org.sonar.sslr.parser.LexerlessGrammar;
